@@ -1,0 +1,82 @@
+body {
+	background-image: url(chair.jpg);
+	background-repeat: none;
+	background-position: all;
+	background-size: cover;
+	color: black;
+	font-family: fantasy;
+	height: 100%;
+	width: 100%;
+}
+.logo {
+	font-size: 100px
+	margin: 20px;
+}
+#logo1 {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+#logo2 {
+	background-color: white;
+	color: black;
+	padding: 10px;
+	border-radius: 10px;
+}
+.intro {
+	padding: 5px;
+	text-align: center;
+} 
+#passport {
+	border-radius: 100%;
+}
+
+.list {
+	list-style-type: none;
+	display: inline-block;
+
+}
+.navbar {
+	display: inline-block;
+}
+ul {
+	/*margin: 0;
+	padding: 0;
+	float: right;*/
+}
+li {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+#footer {
+	border-radius: 100%;
+}
+.navbar li:hover {
+	background-color: #000;
+	color: #fafafa;
+	box-shadow: 1px 1px 20px rgpa(0,0,0,0.5)
+}
+.navbar li {
+	transition: 1000ms;
+	transition-property: all;
+	transition-delay: 200ms;
+	transition-duration: 1100ms;
+}
+#link {
+	text-decoration: none;
+	padding: 10px;
+}
+.detail {
+
+}
+#spec {
+	display: inline-block;
+	border-radius: 10px;
+}
+.thankyou {
+	padding: 25%;
+	font-size: 15px;
+}
